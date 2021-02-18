@@ -144,9 +144,9 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
             path1 = Path(f.name)
             shortname = path1.stem
             start_assistant(shortname.replace(".py", ""))
-    wsta = "Friday And Assistant Bot Have Been Installed Successfully !"
+    wsta = "Cheems And Assistant Bot Have Been Installed Successfully !"
 else:
-    wsta = "Friday Has Been Installed Sucessfully"
+    wsta = "Cheems Has Been Installed Sucessfully! Now gib party XD."
 
 total_clients = 1
 if failed2 is None:
